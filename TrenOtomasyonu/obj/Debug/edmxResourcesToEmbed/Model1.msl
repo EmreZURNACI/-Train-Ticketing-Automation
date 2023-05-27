@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DbTrenSeferleriStoreContainer" CdmEntityContainer="DbTrenSeferleriEntities">
+    <EntitySetMapping Name="musteriTBLs">
+      <EntityTypeMapping TypeName="DbTrenSeferleri.musteriTBL">
+        <MappingFragment StoreEntitySet="musteriTBL">
+          <ScalarProperty Name="musteriID" ColumnName="musteriID" />
+          <ScalarProperty Name="musteriAd" ColumnName="musteriAd" />
+          <ScalarProperty Name="musteriSoyad" ColumnName="musteriSoyad" />
+          <ScalarProperty Name="seferTürü" ColumnName="seferTürü" />
+          <ScalarProperty Name="gidisSeferSaati" ColumnName="gidisSeferSaati" />
+          <ScalarProperty Name="nereden" ColumnName="nereden" />
+          <ScalarProperty Name="nereye" ColumnName="nereye" />
+          <ScalarProperty Name="biletFiyatı" ColumnName="biletFiyatı" />
+          <ScalarProperty Name="koltukAdet" ColumnName="koltukAdet" />
+          <ScalarProperty Name="gelisSeferSaati" ColumnName="gelisSeferSaati" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

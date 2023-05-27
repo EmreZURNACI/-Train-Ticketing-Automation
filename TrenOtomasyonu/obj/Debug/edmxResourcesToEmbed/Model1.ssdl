@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DbTrenSeferleri.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="musteriTBL">
+    <Key>
+      <PropertyRef Name="musteriID" />
+    </Key>
+    <Property Name="musteriID" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="musteriAd" Type="varchar" MaxLength="50" />
+    <Property Name="musteriSoyad" Type="varchar" MaxLength="50" />
+    <Property Name="seferTürü" Type="tinyint" />
+    <Property Name="gidisSeferSaati" Type="varchar" MaxLength="5" />
+    <Property Name="nereden" Type="varchar" MaxLength="50" />
+    <Property Name="nereye" Type="varchar" MaxLength="50" />
+    <Property Name="biletFiyatı" Type="decimal" Precision="6" Scale="2" />
+    <Property Name="koltukAdet" Type="tinyint" />
+    <Property Name="gelisSeferSaati" Type="varchar" MaxLength="5" />
+  </EntityType>
+  <EntityContainer Name="DbTrenSeferleriStoreContainer">
+    <EntitySet Name="musteriTBL" EntityType="Self.musteriTBL" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

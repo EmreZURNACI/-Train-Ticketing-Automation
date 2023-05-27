@@ -1,0 +1,17 @@
+C:\Users\emrez\source\repos\TrenOtomasyonu\TrenOtomasyonu\bin\Debug\TrenOtomasyonu.exe.config
+C:\Users\emrez\source\repos\TrenOtomasyonu\TrenOtomasyonu\bin\Debug\TrenOtomasyonu.exe
+C:\Users\emrez\source\repos\TrenOtomasyonu\TrenOtomasyonu\bin\Debug\TrenOtomasyonu.pdb
+C:\Users\emrez\source\repos\TrenOtomasyonu\TrenOtomasyonu\obj\Debug\TrenOtomasyonu.csproj.AssemblyReference.cache
+C:\Users\emrez\source\repos\TrenOtomasyonu\TrenOtomasyonu\obj\Debug\TrenOtomasyonu.csproj.SuggestedBindingRedirects.cache
+C:\Users\emrez\source\repos\TrenOtomasyonu\TrenOtomasyonu\obj\Debug\TrenOtomasyonu.Form1.resources
+C:\Users\emrez\source\repos\TrenOtomasyonu\TrenOtomasyonu\obj\Debug\TrenOtomasyonu.Properties.Resources.resources
+C:\Users\emrez\source\repos\TrenOtomasyonu\TrenOtomasyonu\obj\Debug\TrenOtomasyonu.csproj.GenerateResource.cache
+C:\Users\emrez\source\repos\TrenOtomasyonu\TrenOtomasyonu\obj\Debug\TrenOtomasyonu.csproj.CoreCompileInputs.cache
+C:\Users\emrez\source\repos\TrenOtomasyonu\TrenOtomasyonu\obj\Debug\TrenOtomasyonu.exe
+C:\Users\emrez\source\repos\TrenOtomasyonu\TrenOtomasyonu\obj\Debug\TrenOtomasyonu.pdb
+C:\Users\emrez\source\repos\TrenOtomasyonu\TrenOtomasyonu\obj\Debug\TrenOtomasyonu.Form2.resources
+C:\Users\emrez\source\repos\TrenOtomasyonu\TrenOtomasyonu\bin\Debug\EntityFramework.dll
+C:\Users\emrez\source\repos\TrenOtomasyonu\TrenOtomasyonu\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\emrez\source\repos\TrenOtomasyonu\TrenOtomasyonu\bin\Debug\EntityFramework.xml
+C:\Users\emrez\source\repos\TrenOtomasyonu\TrenOtomasyonu\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\emrez\source\repos\TrenOtomasyonu\TrenOtomasyonu\obj\Debug\TrenOtomasyonu.csproj.CopyComplete

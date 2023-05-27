@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DbTrenSeferleri" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="musteriTBL">
+    <Key>
+      <PropertyRef Name="musteriID" />
+    </Key>
+    <Property Name="musteriID" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="musteriAd" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="musteriSoyad" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="seferTürü" Type="Byte" />
+    <Property Name="gidisSeferSaati" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="nereden" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="nereye" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="biletFiyatı" Type="Decimal" Precision="6" Scale="2" />
+    <Property Name="koltukAdet" Type="Byte" />
+    <Property Name="gelisSeferSaati" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="DbTrenSeferleriEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="musteriTBLs" EntityType="Self.musteriTBL" />
+  </EntityContainer>
+</Schema>
